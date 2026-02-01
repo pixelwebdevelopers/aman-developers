@@ -1,5 +1,5 @@
 import { Phone, Mail, MapPin } from "lucide-react";
-import amanLogo from "@/assets/aman-logo.jpg";
+import amanLogo from "@/assets/aman-logo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -27,11 +27,11 @@ const Footer = () => {
             <div>
               <img
                 src={amanLogo}
-                alt="AA Aman Developers Logo"
+                alt="Aman Developers Logo"
                 className="h-16 w-auto object-contain mb-4 bg-background rounded-lg p-2"
               />
               <p className="text-primary-foreground/70 text-sm leading-relaxed mb-4">
-                AA Aman Developers (Pvt) Ltd. - Your trusted partner in real estate investment. 
+                Aman Developers (Pvt) Ltd. - Your trusted partner in real estate investment. 
                 Building dreams and delivering trust since years.
               </p>
               <div className="flex items-center gap-2 text-primary-foreground/70 text-sm">
@@ -80,7 +80,7 @@ const Footer = () => {
           {/* Bottom Bar */}
           <div className="border-t border-primary-foreground/10 pt-6 text-center">
             <p className="text-primary-foreground/50 text-sm">
-              © {currentYear} AA Aman Developers (Pvt) Ltd. All rights reserved.
+              © {currentYear} Aman Developers (Pvt) Ltd. All rights reserved.
             </p>
           </div>
         </div>

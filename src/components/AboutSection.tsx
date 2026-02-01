@@ -32,7 +32,7 @@ const AboutSection = () => {
           <div className="text-center mb-16">
             <span className="text-primary font-medium text-sm uppercase tracking-wider">About Us</span>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2 mb-4">
-              AA Aman Developers (Pvt) Ltd.
+              Aman Developers (Pvt) Ltd.
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
               A well-known group of companies specializing in Real Estate & Construction, 
@@ -48,7 +48,7 @@ const AboutSection = () => {
                 Your Trusted Partner in Real Estate Investment
               </h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                At AA Aman Developers, we believe in creating opportunities for everyone to invest 
+                At Aman Developers, we believe in creating opportunities for everyone to invest 
                 in real estate and build wealth. Our mission is to provide secure, transparent, and 
                 profitable investment options that align with halal business practices.
               </p>

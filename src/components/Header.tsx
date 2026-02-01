@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import amanLogo from "@/assets/aman-logo.jpg";
+import amanLogo from "@/assets/aman-logo.png";
 
 const navLinks = [
   { name: "Home", href: "#home" },
@@ -35,7 +35,7 @@ const Header = () => {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
           ? "bg-background/95 backdrop-blur-md shadow-lg"
-          : "bg-transparent"
+          : "bg-white/30 backdrop-blur-sm"
       }`}
     >
       <div className="container mx-auto px-4">
@@ -44,7 +44,7 @@ const Header = () => {
           <a href="#home" className="flex items-center gap-3">
             <img
               src={amanLogo}
-              alt="AA Aman Developers Logo"
+              alt="Aman Developers Logo"
               className="h-14 w-auto object-contain"
             />
           </a>

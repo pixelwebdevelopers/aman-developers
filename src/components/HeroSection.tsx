@@ -1,10 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, TrendingUp, Building2, Shield } from "lucide-react";
+import bannerDesktop from "@/assets/banner-desktop.jpg";
+import bannerMobile from "@/assets/banner-mobile.jpg";
 
 const HeroSection = () => {
   const handleWhatsAppClick = () => {
     window.open(
-      "https://wa.me/923339998436?text=Hello! I'm interested in learning more about AA Aman Developers investment opportunities.",
+      "https://wa.me/923339998436?text=Hello! I'm interested in learning more about Aman Developers investment opportunities.",
       "_blank"
     );
   };
@@ -12,18 +14,27 @@ const HeroSection = () => {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-background via-background to-secondary/30 pt-20"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20"
     >
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-primary rounded-full blur-3xl" />
-        <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent rounded-full blur-3xl" />
-      </div>
+      {/* Desktop Background Image */}
+      <div 
+        className="absolute inset-0 hidden md:block bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${bannerDesktop})` }}
+      />
+      
+      {/* Mobile Background Image */}
+      <div 
+        className="absolute inset-0 md:hidden bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${bannerMobile})` }}
+      />
+      
+      {/* Subtle overlay for better text readability */}
+      <div className="absolute inset-0 bg-gradient-to-b from-white/10 via-transparent to-white/20" />
 
       <div className="container mx-auto px-4 py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full mb-6 animate-fade-in">
+          <div className="inline-flex items-center gap-2 bg-orange-100/90 text-primary px-5 py-2.5 rounded-full mb-6 animate-fade-in shadow-sm">
             <Shield className="w-4 h-4" />
             <span className="text-sm font-medium">Trusted Since Years</span>
           </div>
@@ -53,7 +64,7 @@ const HeroSection = () => {
             <Button
               variant="outline"
               size="lg"
-              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground gap-2 text-lg px-8 py-6"
+              className="bg-white border-primary text-primary hover:bg-primary hover:text-primary-foreground gap-2 text-lg px-8 py-6"
               onClick={() => document.querySelector("#projects")?.scrollIntoView({ behavior: "smooth" })}
             >
               <Building2 className="w-5 h-5" />
@@ -71,11 +82,11 @@ const HeroSection = () => {
             ].map((stat, index) => (
               <div
                 key={index}
-                className="bg-card/50 backdrop-blur-sm rounded-xl p-4 border border-border/50 hover:border-primary/30 transition-all duration-300"
+                className="bg-white/90 backdrop-blur-sm rounded-xl p-4 border border-gray-200 shadow-sm hover:shadow-md hover:border-primary/30 transition-all duration-300"
               >
                 <stat.icon className="w-6 h-6 text-primary mx-auto mb-2" />
-                <div className="text-2xl font-bold text-foreground">{stat.value}</div>
-                <div className="text-sm text-muted-foreground">{stat.label}</div>
+                <div className="text-2xl font-bold text-gray-800">{stat.value}</div>
+                <div className="text-sm text-gray-500">{stat.label}</div>
               </div>
             ))}
           </div>

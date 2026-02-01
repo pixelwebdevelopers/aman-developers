@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 const ContactSection = () => {
   const handleWhatsAppClick = () => {
     window.open(
-      "https://wa.me/923339998436?text=Hello! I'm interested in learning more about AA Aman Developers investment opportunities.",
+      "https://wa.me/923339998436?text=Hello! I'm interested in learning more about Aman Developers investment opportunities.",
       "_blank"
     );
   };
@@ -88,7 +88,7 @@ const ContactSection = () => {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="AA Aman Developers Office Location"
+                title="Aman Developers Office Location"
               />
             </div>
           </div>

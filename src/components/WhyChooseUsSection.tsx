@@ -42,10 +42,10 @@ const WhyChooseUsSection = () => {
           <div className="text-center mb-16">
             <span className="text-primary font-medium text-sm uppercase tracking-wider">Why Choose Us</span>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2 mb-4">
-              The AA Aman Advantage
+              The Aman Advantage
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-              Discover what makes AA Aman Developers the trusted choice for real estate investment in Pakistan.
+              Discover what makes Aman Developers the trusted choice for real estate investment in Pakistan.
             </p>
           </div>
 

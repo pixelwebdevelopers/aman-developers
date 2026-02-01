@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* AA Aman Developers - White & Red Design System */
+/* Aman Developers - White & Red Design System */
 
 @layer base {
   :root {
@@ -111,13 +111,24 @@
 
 /* Custom animations */
 @keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 @keyframes pulse-ring {
-  0% { transform: scale(0.8); opacity: 1; }
-  100% { transform: scale(1.5); opacity: 0; }
+  0% {
+    transform: scale(0.8);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
 }
 
 .animate-float {

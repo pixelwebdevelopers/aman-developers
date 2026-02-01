@@ -34,7 +34,7 @@ const ChairmanSection = () => {
               {/* Message Content */}
               <div className="md:col-span-2">
                 <blockquote className="text-lg md:text-xl text-foreground leading-relaxed mb-6 italic">
-                  "At AA Aman Developers, we are committed to building not just properties, 
+                  "At Aman Developers, we are committed to building not just properties, 
                   but lasting relationships with our investors. Our vision is to provide 
                   transparent, profitable, and Halal investment opportunities that help 
                   our community grow and prosper together. Trust is the foundation of our 
@@ -45,7 +45,7 @@ const ChairmanSection = () => {
                   <div className="h-px flex-1 bg-border" />
                   <div className="text-right">
                     <p className="font-semibold text-foreground">Chairman</p>
-                    <p className="text-sm text-muted-foreground">AA Aman Developers (Pvt) Ltd.</p>
+                    <p className="text-sm text-muted-foreground">Aman Developers (Pvt) Ltd.</p>
                   </div>
                 </div>
               </div>
