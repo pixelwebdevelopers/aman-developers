@@ -8,6 +8,7 @@ import WhyChooseUsSection from "@/components/WhyChooseUsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import BankDetailsButton from "@/components/BankDetailsButton";
 
 const Index = () => {
   return (
@@ -21,6 +22,7 @@ const Index = () => {
       <WhyChooseUsSection />
       <ContactSection />
       <Footer />
+      <BankDetailsButton />
       <WhatsAppButton />
     </main>
   );

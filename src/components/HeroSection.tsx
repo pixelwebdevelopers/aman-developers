@@ -46,7 +46,7 @@ const HeroSection = () => {
           </h1>
 
           {/* Subheading */}
-          <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: "0.2s" }}>
+          <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: "0.2s" , color: '#000000' }}>
             Generate monthly passive income with guaranteed returns of{" "}
             <span className="text-primary font-semibold">4% to 8%</span> through our trusted real estate investment plans.
           </p>
