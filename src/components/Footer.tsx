@@ -1,5 +1,6 @@
 import { Phone, Mail, MapPin } from "lucide-react";
 import amanLogo from "@/assets/aman-logo.png";
+import pixelLogo from "@/assets/pixel-logo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -19,7 +20,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-foreground text-primary-foreground py-12">
+    <footer className="bg-foreground text-primary-foreground py-12 pb-24 md:pb-12">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
@@ -79,9 +80,25 @@ const Footer = () => {
 
           {/* Bottom Bar */}
           <div className="border-t border-primary-foreground/10 pt-6 text-center">
-            <p className="text-primary-foreground/50 text-sm">
+            <p className="text-primary-foreground/50 text-sm mb-3">
               © {currentYear} Aman Developers (Pvt) Ltd. All rights reserved.
             </p>
+            
+            {/* Developer Credit */}
+            <a
+              href="https://www.pixelwebdevelopers.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-primary-foreground/30 hover:text-primary-foreground/60 transition-all duration-300"
+            >
+              <span className="text-xs">Developed by</span>
+              <img 
+                src={pixelLogo} 
+                alt="Pixel Web Developers" 
+                className="h-5 w-5 rounded opacity-60 group-hover:opacity-100 transition-opacity"
+              />
+              <span className="text-xs font-medium hover:underline">Pixel Web Developers</span>
+            </a>
           </div>
         </div>
       </div>
@@ -90,3 +107,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
