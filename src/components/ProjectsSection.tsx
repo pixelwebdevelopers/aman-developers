@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import imperialValley from "@/assets/project-imperial-valley.jpeg";
 import taqwaVillage from "@/assets/project-taqwa-village.jpeg";
 import farmingZone from "@/assets/farming-zone.png";
+import highRiseMurree from "@/assets/high-rise-building-murree.png";
 import completedZainAzam from "@/assets/completed-zain-azam-1.jpg";
 import completedTaqwaVillage from "@/assets/completed-taqwa-village-1.jpg";
 
@@ -56,6 +57,19 @@ const ProjectsSection = () => {
       badge: "New Launch",
       badgeVariant: "default" as const,
     },
+    {
+      name: "High Rise Buildings",
+      image: highRiseMurree,
+      location: "Murree Expressway",
+      features: [
+        "Premium High Rise Living",
+        "Scenic Mountain Views",
+        "Modern Architecture",
+        "Luxury Amenities",
+      ],
+      badge: "Featured Project",
+      badgeVariant: "default" as const,
+    },
   ];
 
   const completedProjects = [
@@ -105,7 +119,7 @@ const ProjectsSection = () => {
             </div>
 
             {/* On Going Projects Grid */}
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-2 gap-8">
               {ongoingProjects.map((project, index) => (
                 <Card
                   key={index}
