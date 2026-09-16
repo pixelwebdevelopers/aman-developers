@@ -46,7 +46,7 @@ A modern, professional single-page website for Aman Developers (Pvt) Ltd. with a
 ### 5. **Investment Plans Section**
 
 - Beautiful pricing-style table displaying investment tiers:
-  - **Tier 1**: 1 Lac to 5 Lac → 3% to 5% Monthly Profit
+  - **Tier 1**: 1 Lac to 5 Lac → 3% to 6% Monthly Profit
   - **Tier 2**: 5 Lac to 50 Lac → 3% to 6% Monthly Profit
   - **Tier 3**: 50 Lac to 1 Crore → 3% to 6% Monthly Profit
 - Highlighted "High ROI" badge

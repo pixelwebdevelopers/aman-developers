@@ -64,7 +64,7 @@ const Footer = () => {
               <ul className="space-y-3">
                 <li className="flex items-start gap-3 text-primary-foreground/70 text-sm">
                   <MapPin className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" />
-                  <span>Top City Prime Mall, Faisal Bank 3rd Floor, Office #301, Kashmir Highway Airport Road, Islamabad</span>
+                  <span>Top City Prime Mall, Faisal Bank 4th Floor, Office #403,412, Kashmir Highway New Airport Road, Islamabad</span>
                 </li>
                 <li className="flex items-center gap-3 text-primary-foreground/70 text-sm">
                   <Phone className="w-4 h-4 text-primary" />
@@ -97,7 +97,6 @@ const Footer = () => {
                 alt="Pixel Web Developers" 
                 className="h-5 w-5 rounded opacity-60 group-hover:opacity-100 transition-opacity"
               />
-              <span className="text-xs font-medium hover:underline">Pixel Web Developers</span>
             </a>
           </div>
         </div>
