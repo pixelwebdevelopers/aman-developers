@@ -18,7 +18,7 @@ const ContactSection = () => {
     {
       icon: Phone,
       title: "Phone Numbers",
-      content: "0333-9998436 | 0333-9998437",
+      content: "0317-5322130 | 0330-5555361",
     },
     {
       icon: Clock,
