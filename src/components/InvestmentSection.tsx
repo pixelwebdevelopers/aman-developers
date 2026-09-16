@@ -45,7 +45,7 @@ const InvestmentSection = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2 mb-4">
               Profitable Investment Opportunities
             </h2>
-            <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
+            <p className="text-muted-foreground max-w-2x2 mx-auto text-lg">
               Choose an investment tier that suits your budget and start earning monthly passive income with guaranteed returns.
             </p>
           </div>
