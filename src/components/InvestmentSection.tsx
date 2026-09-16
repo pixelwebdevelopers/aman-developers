@@ -95,7 +95,7 @@ const InvestmentSection = () => {
                   <ul className="space-y-3 text-left">
                     {plan.features.map((feature, idx) => (
                       <li key={idx} className="flex items-center gap-2 text-muted-foreground">
-                        <Shield className="w-4 h-4 text-primary flex-shrink-0" />
+                        <Shield className="w-4 h-4 text-primary flex-shrink-2" />
                         <span className="text-sm">{feature}</span>
                       </li>
                     ))}

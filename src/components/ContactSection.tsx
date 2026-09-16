@@ -23,7 +23,7 @@ const ContactSection = () => {
     {
       icon: Clock,
       title: "Business Hours",
-      content: "Monday - Saturday: 9:00 AM - 6:00 PM",
+      content: "Monday - Saturday: 9:00 AM - 8:00 PM",
     },
   ];
 
