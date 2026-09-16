@@ -93,7 +93,7 @@ A modern, professional single-page website for Aman Developers (Pvt) Ltd. with a
 - Fixed position on bottom-right corner
 - Pulsing animation to draw attention
 - Opens WhatsApp chat with pre-filled message
-- Primary number: 0333-9998436
+- Primary number: 0317-5322130
 
 ### Animations & Effects
 
