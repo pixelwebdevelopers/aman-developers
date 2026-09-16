@@ -48,7 +48,7 @@ const HeroSection = () => {
           {/* Subheading */}
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: "0.2s" , color: '#000000' }}>
             Generate monthly passive income with guaranteed returns of{" "}
-            <span className="text-primary font-semibold">4% to 8%</span> through our trusted real estate investment plans.
+            <span className="text-primary font-semibold">3% to 6%</span> through our trusted real estate investment plans.
           </p>
 
           {/* CTA Buttons */}
@@ -75,10 +75,10 @@ const HeroSection = () => {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto animate-fade-in" style={{ animationDelay: "0.4s" }}>
             {[
-              { icon: TrendingUp, label: "Monthly Returns", value: "4-8%" },
-              { icon: Building2, label: "Active Projects", value: "2+" },
+              { icon: TrendingUp, label: "Monthly Returns", value: "3-6%" },
+              { icon: Building2, label: "Active Projects", value: "4+" },
               { icon: Shield, label: "Years Experience", value: "10+" },
-              { icon: MessageCircle, label: "Happy Investors", value: "500+" },
+              { icon: MessageCircle, label: "Happy Investors", value: "1000+" },
             ].map((stat, index) => (
               <div
                 key={index}
