@@ -12,7 +12,7 @@ import completedTaqwaVillage from "@/assets/completed-taqwa-village-1.jpg";
 const ProjectsSection = () => {
   const handleWhatsAppClick = (projectName: string) => {
     window.open(
-      `https://wa.me/923339998436?text=Hello! I'm interested in ${projectName}. Please share more details.`,
+      `https://wa.me/923175322130?text=Hello! I'm interested in ${projectName}. Please share more details.`,
       "_blank"
     );
   };

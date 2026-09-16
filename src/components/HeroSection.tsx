@@ -6,7 +6,7 @@ import bannerMobile from "@/assets/banner-mobile.jpg";
 const HeroSection = () => {
   const handleWhatsAppClick = () => {
     window.open(
-      "https://wa.me/923339998436?text=Hello! I'm interested in learning more about Aman Developers investment opportunities.",
+      "https://wa.me/923175322130?text=Hello! I'm interested in learning more about Aman Developers investment opportunities.",
       "_blank"
     );
   };
