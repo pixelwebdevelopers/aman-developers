@@ -46,9 +46,9 @@ A modern, professional single-page website for Aman Developers (Pvt) Ltd. with a
 ### 5. **Investment Plans Section**
 
 - Beautiful pricing-style table displaying investment tiers:
-  - **Tier 1**: 1 Lac to 5 Lac → 4% to 5% Monthly Profit
-  - **Tier 2**: 5 Lac to 50 Lac → 4% to 6% Monthly Profit
-  - **Tier 3**: 50 Lac to 1 Crore → 5% to 8% Monthly Profit
+  - **Tier 1**: 1 Lac to 5 Lac → 3% to 5% Monthly Profit
+  - **Tier 2**: 5 Lac to 50 Lac → 3% to 6% Monthly Profit
+  - **Tier 3**: 50 Lac to 1 Crore → 3% to 6% Monthly Profit
 - Highlighted "High ROI" badge
 - CTA button to contact for investment
 
@@ -71,7 +71,7 @@ A modern, professional single-page website for Aman Developers (Pvt) Ltd. with a
 
 ### 8. **Contact Section**
 
-- Office address: Top City Prime Mall, Faisal Bank 3rd Floor, Office #301, Kashmir Highway Airport Road Islamabad
+- Office address: Top City Prime Mall, Faisal Bank 4th Floor, Office #403,412, Kashmir Highway Airport Road Islamabad
 - Phone numbers displayed prominently
 - WhatsApp contact buttons
 - Interactive map embed (optional)
