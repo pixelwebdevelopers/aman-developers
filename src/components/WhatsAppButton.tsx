@@ -3,8 +3,14 @@ import { MessageCircle } from "lucide-react";
 const WhatsAppButton = () => {
   const handleClick = () => {
     window.open(
-      "https://wa.me/923175322130?text=Hello! I'm interested in learning more about Aman Developers investment opportunities.",
+       "https://wa.me/+923175322130?text=Hello! I'm interested in learning more about Aman Developers investment opportunities.",
       "_blank"
+
+    );
+    window.open(
+      "https://wa.me/+923175322130?text=Hello! I'm interested in learning more about Aman Developers investment opportunities.",
+      "_blank"
+      
     );
   };
 

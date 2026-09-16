@@ -13,7 +13,7 @@ const ContactSection = () => {
     {
       icon: MapPin,
       title: "Office Address",
-      content: "Top City Prime Mall, Faisal Bank 3rd Floor, Office #301, Kashmir Highway Airport Road, Islamabad",
+      content: "Top City Prime Mall, Faisal Bank 4th Floor, Office #403,412, Kashmir Highway New Airport Road, Islamabad",
     },
     {
       icon: Phone,
@@ -97,5 +97,6 @@ const ContactSection = () => {
     </section>
   );
 };
+
 
 export default ContactSection;
