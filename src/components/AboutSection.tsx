@@ -44,7 +44,7 @@ const AboutSection = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             {/* Left Content */}
             <div>
-              <h3 className="text-2xl font-semibold text-foreground mb-4">
+              <h3 className="text-2xl font-semibold text-foreground mb-6">
                 Your Trusted Partner in Real Estate Investment
               </h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
